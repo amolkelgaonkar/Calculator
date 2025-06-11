@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Simple Calculator</title>
+</head>
+<body>
+  <main class="container" role="main">
+    <section class="calculator" aria-label="Simple Calculator">
+      <input 
+        type="text" 
+        id="inputBox" 
+        placeholder="0" 
+        aria-label="Calculator display" 
+        readonly 
+      />
+
+      <div class="button-row">
+        <button type="button" class="button operator" aria-label="Clear">AC</button>
+        <button type="button" class="button operator" aria-label="Delete">DEL</button>
+        <button type="button" class="button operator" aria-label="Percent">%</button>
+        <button type="button" class="button operator" aria-label="Divide">/</button>
+      </div>
+
+      <div class="button-row">
+        <button type="button" class="button" aria-label="7">7</button>
+        <button type="button" class="button" aria-label="8">8</button>
+        <button type="button" class="button" aria-label="9">9</button>
+        <button type="button" class="button operator" aria-label="Multiply">*</button>
+      </div>
+
+      <div class="button-row">
+        <button type="button" class="button" aria-label="4">4</button>
+        <button type="button" class="button" aria-label="5">5</button>
+        <button type="button" class="button" aria-label="6">6</button>
+        <button type="button" class="button operator" aria-label="Subtract">-</button>
+      </div>
+
+      <div class="button-row">
+        <button type="button" class="button" aria-label="1">1</button>
+        <button type="button" class="button" aria-label="2">2</button>
+        <button type="button" class="button" aria-label="3">3</button>
+        <button type="button" class="button operator" aria-label="Add">+</button>
+      </div>
+
+      <div class="button-row">
+        <button type="button" class="button" aria-label="Double Zero">00</button>
+        <button type="button" class="button" aria-label="0">0</button>
+        <button type="button" class="button" aria-label="Decimal">.</button>
+        <button type="button" class="button equalBtn" aria-label="Equals">=</button>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
